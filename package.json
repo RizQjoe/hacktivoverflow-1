@@ -1,0 +1,29 @@
+{
+  "name": "hacktivoverflow-1",
+  "version": "1.0.0",
+  "description": "simple app hacktiv-overFlow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RizQjoe/hacktivoverflow-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RizQjoe/hacktivoverflow-1/issues"
+  },
+  "homepage": "https://github.com/RizQjoe/hacktivoverflow-1#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.12.5"
+  }
+}
