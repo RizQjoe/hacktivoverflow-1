@@ -19,7 +19,7 @@ const answareSchema = Schema({
     downvotes:[{
         type: Schema.Types.ObjectId,
         ref: 'User'
-    }]
+    }],
 },{
     timestamps:true
 })
